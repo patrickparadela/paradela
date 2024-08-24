@@ -1,0 +1,67 @@
+
+*{
+    max-width: 100%;
+   height: auto;
+}   
+
+body{
+    background-image: url(imagens/fundo.png);
+}
+
+nav{
+    background-color: rgb(161, 190, 161);
+    padding: 30px;
+    width: 840px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+nav >a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:rgb(14, 177, 14);
+    transition: 1s;
+    text-decoration: underline;
+}
+ article{
+    background-color: rgb(211, 233, 211);
+    width: 840px;
+    padding: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+footer >p{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.campanha{
+    display: flex;
+    border-style: solid;
+    border-color:rgb(71, 78, 71) ;
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+
+.formulario{
+font-weight: bold;
+}
+
+h1{
+    color:rgb(127, 138, 127) ;
+}
+
+img{
+    max-width: 100%;
+     height: auto;
+    
+}
+ p{
+    text-align: justify;
+   
+ }
